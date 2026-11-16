@@ -33,7 +33,7 @@ public class ApplicationDao {
         return rowId != -1;
     }
 
-    // ⭐ 你专属的方法：模拟审批状态更新
+    // 模拟审批状态更新
     public boolean updateApplicationStatus(String applyId, String newStatus) {
         SQLiteDatabase db = dbHelper.getWritableDatabase();
         ContentValues values = new ContentValues();

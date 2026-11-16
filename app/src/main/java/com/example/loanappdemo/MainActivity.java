@@ -1,4 +1,4 @@
-package com.example.loanappdemo; // 注意改成你自己的包名
+package com.example.loanappdemo;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
