@@ -21,6 +21,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        startActivity(new android.content.Intent(
+                this,
+                com.example.loanappdemo.application.MyApplicationsActivity.class
+        ));
 
         Log.d("DB_TEST", "===== 开始测试 DAO 数据层 =====");
 
